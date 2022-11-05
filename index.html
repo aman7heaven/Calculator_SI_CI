@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Interest Calculator</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+   
+    <div class="container">
+      <div class="input-wrapper">
+        <div class="wrapper">
+          <label for="principal">Principal($):</label>
+          <input type="number" id="principal" value="1000" />
+        </div>
+        <div class="wrapper">
+          <label for="rate">Rate:</label>
+          <input type="number" id="rate" value="5" />
+        </div>
+      </div>
+      <label for="time">Time:</label>
+      <div class="time-wrapper">
+        <input type="number" id="time" value="1" />
+        <select name="duration" id="duration">
+          <option value="year">Year</option>
+          <option value="month">Month</option>
+        </select>
+      </div>
+      <button id="calculate-btn">Calculate</button>
+      <div id="result"></div>
+     <div>
+        <a href="index2.html"><button type="button" class="btn btn-success">Compound Interest</button></a>
+     </div> 
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+  </body>
+</html>

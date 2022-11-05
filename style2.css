@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700;900&display=swap");
+
+body {
+    height: 100vh;
+    background: linear-gradient(#d7b5d5, #9c6d93);
+  }
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 40px;
+}
+
+.calculator {
+  width: 40%;
+  color: #063102;
+}
+
+.heading h3 {
+  font-size: 25px;
+  color: #bf5ac1;
+}
+#message {
+  font-size: 20px;
+  color: #063102;
+}
+
+.input-group {
+  margin: 20px 0;
+}
+
+.input-group label {
+  display: block;
+}
+
+.input-group input,
+.input-group button,
+.input-group select {
+  width: 70%;
+  padding: 12px;
+  border: 1px solid #a17aac;
+  outline: none;
+  border-radius: 5px;
+}
+.input-group button {
+  background-color: #000000;
+  color: #fff;
+}
+
+.results {
+  width: 50%;
+  margin: 10px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  background-color: #d7b8de;
+  flex-direction: column;
+}
